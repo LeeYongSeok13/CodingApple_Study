@@ -1,0 +1,17 @@
+form {
+  width: 500px;
+  height: 1000px;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+}
