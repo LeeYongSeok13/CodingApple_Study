@@ -1,0 +1,36 @@
+.alert {
+  position: relative;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.alert1 {
+  background-color: skyblue;
+}
+
+.alert2 {
+  background-color: aquamarine;
+}
+
+.alert3 {
+  background-color: cornflowerblue;
+}
+
+div button {
+  position: absolute;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.outbutton {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

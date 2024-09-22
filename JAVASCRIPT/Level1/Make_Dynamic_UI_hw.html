@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Make Dynamic UI Homework</title>
+    <link rel="stylesheet" href="./css/Make_Dynamic_UI_hw.css" />
+  </head>
+  <body>
+    <div class="alert alert1">
+      Alert 박스 열고 닫기 실습1
+      <button
+        onclick="document.querySelector('.alert1').style.display = 'none';"
+      >
+        X
+      </button>
+    </div>
+    <div
+      class="alert alert2"
+      onclick="document.querySelector('.alert2').style.display = 'none';"
+    >
+      Alert 박스 열고 닫기 실습2 <button>X</button>
+    </div>
+    <div
+      class="alert alert3"
+      onclick="document.querySelector('.alert3').style.display = 'none';"
+    >
+      Alert 박스 열고 닫기 실습3 <button>X</button>
+    </div>
+
+    <button
+      class="outbutton"
+      onclick="document.querySelectorAll('.alert').style.display ='block';"
+    >
+      띄우기
+    </button>
+  </body>
+</html>
