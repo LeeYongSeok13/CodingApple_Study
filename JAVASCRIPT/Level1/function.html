@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/function.css" />
+    <title>function 문법 사용법</title>
+  </head>
+  <body>
+    <div class="alert-box" id="alert">
+      <p id="title">알림창임</p>
+      <button onclick="openAlert('none');">버튼</button>
+      <button id="close">닫기</button>
+    </div>
+
+    <button onclick="idAlert1()">버튼1</button>
+    <button onclick="idAlert2()">버튼2</button>
+
+    <script>
+      function openAlert(event) {
+        document.getElementById("alert").style.display = event;
+      }
+
+      function idAlert1() {
+        document.getElementById("title").innerHTML = "아이디입력하셈";
+        document.getElementById("alert").style.display = "block";
+      }
+
+      function idAlert2() {
+        document.getElementById("title").innerHTML = "비번입력하셈";
+        document.getElementById("alert").style.display = "block";
+      }
+
+      document.getElementById("close").addEventListener("click", function () {
+        document.getElementById("alert").style.display = "none";
+      });
+    </script>
+  </body>
+</html>
