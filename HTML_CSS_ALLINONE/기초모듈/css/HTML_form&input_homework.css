@@ -1,17 +1,47 @@
-form {
-  width: 500px;
-  height: 1000px;
+* {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
+form {
+  position: relative;
+  top: 100px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
 input {
   width: 100%;
   box-sizing: border-box;
   padding: 0 10px;
 }
+
+h2 {
+  margin-bottom: 50px;
+}
+
 .w-100 {
   width: 100%;
+  padding: 10px;
 }
 
 .w-50 {
   width: 50%;
   float: left;
+  padding: 10px;
+}
+
+.yellow-button {
+  width: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
 }
